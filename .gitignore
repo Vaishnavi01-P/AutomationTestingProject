@@ -1,0 +1,41 @@
+# Maven build target directory
+target/
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Test execution reports and runtime outputs
+test-output/
+reports/
+screenshots/*.png
+!src/test/resources/testdata/*.png
+
+# Logs and runtime artifacts
+logs/
+*.log
+
+# IDE and Project configuration files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Environment and sensitive keys
+.env
+*.key
+*.secret
+*.pem
+credentials.json
