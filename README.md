@@ -54,7 +54,7 @@ The primary objective of this project is to automate the end-to-end regression t
 
 | Technology | Version | Purpose |
 |---|---|---|
-| **Java** | 11 / 17 / 21 / 23 | Core programming language |
+| **Java** | 21 | Core programming language |
 | **Selenium WebDriver** | 4.28.1 | Browser automation engine |
 | **TestNG** | 7.10.2 | Test runner, lifecycle assertions, and suite management |
 | **Maven** | 3.9+ | Build and dependency management tool |
@@ -305,7 +305,7 @@ The project includes a ready-to-run declarative `Jenkinsfile`.
 3. Under **Pipeline Definition**, select **Pipeline script from SCM**.
 4. Set SCM to **Git** and enter your repository URL.
 5. Set Script Path to `Jenkinsfile`.
-6. Configure Global Tool Configuration in Jenkins for JDK (`JDK-17`) and Maven (`Maven-3.9`).
+6. Configure Global Tool Configuration in Jenkins for JDK (`JDK-21`) and Maven (`Maven-3.9`).
 7. Click **Build Now**.
 
 ---
